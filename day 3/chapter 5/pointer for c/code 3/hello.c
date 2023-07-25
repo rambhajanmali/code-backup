@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+    {
+// float price = 55;
+// float *ptr = &price;
+// float **pptr = &ptr;
+
+int i = 5;
+int *ptr =&i;
+int **pptr = &ptr;
+
+printf("%d\n",**pptr);
+
+return 0;
+    }

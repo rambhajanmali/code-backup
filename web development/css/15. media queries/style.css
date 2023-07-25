@@ -1,0 +1,22 @@
+body{
+    background-color: red;
+}
+@media (min-width:400px)and (max-width:800px){
+    body{
+
+        background-color: black;
+    }
+
+    @media (width<=400px) {
+        body{
+        background-color: #fff;
+        }
+    }
+
+    /* @media (min-width:800px ) {
+        body{
+            background-color: gold;
+        }
+        
+    }
+} */

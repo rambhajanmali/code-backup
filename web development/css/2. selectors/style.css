@@ -1,0 +1,27 @@
+/* *{
+    font-family: fantasy;
+} */
+
+body{
+    font-size: 20px;
+}
+
+#first>p
+{
+    color:green;
+}
+
+#first ,#second{
+    color: rgb(250, 215, 215);
+}
+.purple{
+color: purple;
+font-variant-position: normal;
+}
+
+
+.highlight{
+background: yellow;  
+font-style: italic;
+}
+
